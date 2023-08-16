@@ -1,10 +1,9 @@
-# Job Portal
+# Job Portal Be-rojgar
 
-Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
+Job Portal is a MERN Stack-based web app that helps streamline the flow of the job application process. It allows users to select their roles (applicant/recruiter), and create an account. In this web app, login sessions are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resumes, and edit profiles. And, an applicant can view jobs, perform fuzzy searches with various filters, apply for jobs with an SOP, view applications, upload a profile picture, upload a resume, and edit a profile. Hence, it is an all-in-one solution for a job application system.
 
-Demo: [Click Here](https://www.youtube.com/watch?v=lIrN-LbbBnw&ab_channel=ShlokPandey)
 
-Directory structure of the web app is as follows:
+The directory structure of the web app is as follows:
 
 ```
 - backend/
@@ -17,8 +16,8 @@ Directory structure of the web app is as follows:
 
 ## Instructions for initializing web app:
 
-- Install Node JS, MongoDB in the machine.
-- Start MongoDB server: `sudo service mongod start`
+- Install Node JS, and MongoDB in the machine.
+- Start MongoDB server: `sudo service mongod start
 - Move inside backend directory: `cd backend`
 - Install dependencies in backend directory: `npm install`
 - Start express server: `npm start`
@@ -56,11 +55,3 @@ Directory structure of the web app is as follows:
   - passport-local
   - uuid
 
-# Machine Specifications
-
-Details of the machine on which the webapp was tested:
-
-- Operating System: Elementary OS 5.1 (Hera)
-- Terminal: Bash
-- Processor: Intel Core i7-8750H CPU @ 2.20 GHz 2.21 GHz
-- RAM: 16 GB
